@@ -12,7 +12,7 @@ void draw() {
  
   image(img, 0, 0);
 
-  // Orejas con sombra
+  // Orejas 
   fill(80, 80, 80, 150); 
   triangle(490, 240, 500, 190, 510, 240);
   triangle(520, 240, 530, 190, 540, 240);
@@ -21,13 +21,11 @@ void draw() {
   fill(140, 120, 100);
   rect(420, 350, 360, 30, 10);
   
-  // Detalles base
   stroke(120, 100, 80);
   line(430, 355, 770, 355);
   line(430, 365, 770, 365);
   noStroke();
 
-  // Cola
   fill(90);
   rect(690, 250, 60, 10); 
 
@@ -38,18 +36,16 @@ void draw() {
   rect(630, 300, 10, 50); 
   rect(660, 300, 10, 50); 
 
-  // Textura patas
   stroke(60);
   line(543, 310, 543, 330);
   line(633, 310, 633, 330);
   noStroke();
 
-  // Cuerpo loba
+  // loba
   fill(90);
   ellipse(600, 260, 200, 100); 
   ellipse(520, 250, 60, 60); 
 
-  // Ojos loba
   fill(255);
   ellipse(510, 235, 8, 8);
   ellipse(530, 235, 8, 8);
@@ -57,13 +53,11 @@ void draw() {
   ellipse(510, 235, 3, 3);
   ellipse(530, 235, 3, 3);
 
-  // Hocico y boca loba
   fill(70);
   ellipse(500, 245, 25, 15);  
   fill(0);
   ellipse(520, 260, 20, 4); 
 
-  // Mamas
   fill(80); 
   ellipse(560, 310, 5, 10);
   ellipse(580, 310, 5, 10);
@@ -71,7 +65,7 @@ void draw() {
   ellipse(620, 310, 5, 10);
   ellipse(640, 310, 5, 10);
 
-  // Niño 1 (parado)
+  // Niño 1 
   fill(255, 220, 180); 
   ellipse(560, 320, 20, 20); // cabeza 
   ellipse(560, 340, 25, 30); // torso
@@ -80,7 +74,6 @@ void draw() {
   ellipse(545, 330, 8, 20); // brazo 
   ellipse(575, 330, 8, 20); // brazo 
 
-  // Detalles niño 1
   fill(0);
   ellipse(555, 320, 3, 3); // ojo izq
   ellipse(565, 320, 3, 3); 
@@ -89,7 +82,7 @@ void draw() {
   fill(0);
   ellipse(560, 330, 4, 2); 
 
-  // Niño 2 (sentado)
+  // Niño 2 
   fill(255, 220, 180); 
   ellipse(610, 320, 20, 20); // cabeza
   ellipse(610, 340, 25, 30); // torso vertical
@@ -98,7 +91,6 @@ void draw() {
   ellipse(595, 335, 8, 15); // brazo izquierdo relajado
   ellipse(625, 335, 8, 15); // brazo derecho relajado
 
-  // Detalles niño 2
   fill(0);
   ellipse(605, 320, 3, 3); 
   ellipse(615, 320, 3, 3); 
@@ -107,7 +99,6 @@ void draw() {
   fill(0);
   ellipse(610, 330, 4, 2); 
 
-  // Sombras niños
   fill(50, 50, 50, 50);
   ellipse(560, 365, 30, 8);
   ellipse(610, 370, 30, 8);
