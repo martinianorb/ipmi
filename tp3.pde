@@ -63,7 +63,7 @@ void dibujarFiguras(float x, float y, float radio, float desplazamientoX) {
   ellipse(x + desplazamientoX, y, anchoElipse, altoElipse);
 }
 
-// ✅ Función PROPIA con parámetros que **RETORNA un valor**
+// Función PROPIA que RETORNA un valor
 float calcularDesplazamientoX(int indice, int total, float desplazamientoTotal) {
   return desplazamientoTotal * (total - 1 - indice) / (float)total;
 }
